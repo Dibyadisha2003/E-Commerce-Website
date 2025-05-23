@@ -1,0 +1,90 @@
+<html>
+<html>
+<head>
+    <title>Beauty</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #8d8787;
+         
+        }
+
+        .shoptxt {
+            background-color: #3b8297;
+            color: rgb(223, 12, 142);
+            padding: 1px;
+        }
+
+        .shoptxt p {
+            font-size: 2.5rem;
+            font-weight: bolder;
+            text-align: center;
+            color: brown;
+            margin: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 300px;
+            display: flexbox;
+            justify-content: center;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+            transition: box-shadow 0.3s;
+            height: 300px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="shoptxt">
+        <h3>
+            <P class="shoptxt_shop">PickNShop</P>
+        </h3>
+    </header>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </nav>
+
+    <div class="container">
+        <div class="product">
+            <img src="beauty.jpg" alt="Beauty">
+        </div>
+        <h2>Product details </h2>
+        <p>$19.99</p>
+        <a href="PaymentPage.html"><button>Buy</button></a>
+    </div>
+</body>

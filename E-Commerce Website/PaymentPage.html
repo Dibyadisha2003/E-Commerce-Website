@@ -1,0 +1,109 @@
+<html>
+<head>
+    <title>Payment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: white;
+        }
+
+        .shoptxt {
+            background-color: black;
+            color: rgb(223, 12, 142);
+            padding: 1px;
+        }
+
+        .shoptxt p {
+            font-size: 2.5rem;
+            text-align: center;
+            color: white;
+            margin: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            padding: 0.5rem;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 300px;
+            display: flexbox;
+            justify-content: center;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+            transition: box-shadow 0.3s;
+            height: 300px;
+            width: 500px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .paymentbox {
+            width: 500px;
+            height: 300px;
+            border: 5px solid rgb(129, 75, 75);
+            background-color: skyblue;
+            text-align: center;
+            line-height: 100px;
+            justify-content: center;
+            display: flex;
+            overflow-wrap: break-word;
+            line-height: 1.5;
+            border-radius: 30px;
+        }
+
+        .paymentboxshape {
+            display: flex;
+            justify-content: center;
+            padding-top: 60px;
+        }
+
+        .dtls {
+            justify-content: center;
+            display: flex;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header class="shoptxt">
+        <h3>
+            <P class="shoptxt_shop">PickNShop</P>
+        </h3>
+    </header>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </nav>
+    <p class="dtls">Payment Process</p>
+    <div class="paymentboxshape">
+        <div class="paymentbox">
+            <p>Transaction Amt </p>
+        </div>
+    </div>
+</body>

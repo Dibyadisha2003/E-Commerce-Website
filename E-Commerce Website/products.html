@@ -1,0 +1,239 @@
+<html>
+<head>
+  <title>Products</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff9800;
+    }
+
+    .category {
+      margin: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .category h2 {
+      margin-top: 0;
+      font-size: 24px;
+      color: #333;
+      border-bottom: 2px solid #ff9800;
+      padding-bottom: 5px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .product-card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .product-card h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .product-card p {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .product-card .price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .product-card button {
+      background-color: #ff9800;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .product-card button:hover {
+      background-color: #e68900;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Products</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="products.html">Products</a></li>
+    </ul>
+  </nav>
+  <div class="category">
+    <h2>Electronics</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="MOBILE.IMAGE.jpg" alt="Product 1">
+        <h3>Smartphone</h3>
+        <p>High-performance smartphone with a sleek design.</p>
+        <p class="price">$699.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="EARBUD.IMAGE.jpg" alt="Product 2">
+        <h3>Wireless Earbuds</h3>
+        <p>Comfortable and noise-canceling headphones.</p>
+        <p class="price">$199.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="category">
+    <h2>Fashion</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="tshirt.jpg" alt="Product 3">
+        <h3>T-Shirt</h3>
+        <p>Soft and stylish cotton t-shirt.</p>
+        <p class="price">$25.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="jeans.jpg" alt="Product 4">
+        <h3>Jeans</h3>
+        <p>Comfortable denim jeans for everyday wear.</p>
+        <p class="price">$40.00</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+    <div class="category">
+        <h2>Beauty</h2>
+        <div class="products">
+          <div class="product-card">
+            <img src="cream.webp" alt="Product 3">
+            <h3>Cream</h3>
+            <p>Soft and bouncy skin.</p>
+            <p class="price">$25.00</p>
+            <button>Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="facewash.jpg" alt="Product 4">
+            <h3>FaceWash</h3>
+            <p>Clear and glowing skin.</p>
+            <p class="price">$40.00</p>
+            <button>Add to Cart</button>
+          </div>
+        </div>
+        <div class="category">
+            <h2>Footwear</h2>
+            <div class="products">
+              <div class="product-card">
+                <img src="shoes.png" alt="Product 3">
+                <h3>Nike</h3>
+                <p>Comfort and Cushioning.</p>
+                <p class="price">$25.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product-card">
+                <img src="lancer.jpg" alt="Product 4">
+                <h3>Lancer</h3>
+                <p>Durable and Stylish.</p>
+                <p class="price">$40.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="category">
+            <h2>Accessories</h2>
+            <div class="products">
+              <div class="product-card">
+                <img src="earrings.jpg" alt="Product 3">
+                <h3>Earrings</h3>
+                <p>Light Weight and Durable.</p>
+                <p class="price">$25.00</p>
+                <button>Add to Cart</button>
+              </div>
+              <div class="product-card">
+                <img src="necklace.jpg" alt="Product 4">
+                <h3>Necklaces</h3>
+                <p>Beautifully designed with stainless steels with gemstones and leather.</p>
+                <p class="price">$40.00</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+  </div>
+  <footer>
+    <p>&copy; 2025 PicknShop. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
